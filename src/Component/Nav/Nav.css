@@ -1,0 +1,17 @@
+.head {
+  color: rgb(10, 80, 16);
+  text-align: center;
+  margin-top: 5px;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-align-last: right;
+}
+.nav {
+  background-color: cornsilk;
+}
+.nav img {
+  width: 100px;
+}
