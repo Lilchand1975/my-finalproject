@@ -1,6 +1,13 @@
-.btns {
-  background-color: aquamarine;
-  color: darkgreen;
+.home {
+  background-color: darkgreen;
+  color: rgb(245, 231, 42);
   height: 50px;
-  width: 400px;
+  width: 1265px;
+  margin-top: 0px;
+}
+.btns {
+  background-color: rgb(194, 238, 194);
+  color: gold;
+  margin: 55px;
+  display: inline;
 }
