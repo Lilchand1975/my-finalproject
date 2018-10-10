@@ -10,19 +10,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-<<<<<<< HEAD
       <Navigation/>
         <Nav name="BHUTANESE COMMUNITY OF GREATER RICHMOND (BCGR)-VA" />
-        
-        <Footer>
-
-        </Footer>
-
-=======
-        <Nav />
         <Ribbon branding="button" />
         <Carousel />
->>>>>>> master
+        <Footer />
+
       </div>
     );
   }
