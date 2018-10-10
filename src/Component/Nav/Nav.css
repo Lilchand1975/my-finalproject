@@ -1,7 +1,8 @@
 .head {
-  color: rgb(10, 80, 16);
+  color: rgb(85, 32, 36);
   text-align: center;
-  margin-top: 5px;
+  margin-top: 15px;
+  font-weight: bold;
 }
 p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -10,7 +11,7 @@ p {
   text-align-last: right;
 }
 .nav {
-  background-color: cornsilk;
+  background-color: rgb(172, 166, 145);
 }
 .nav img {
   width: 100px;

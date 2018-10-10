@@ -1,6 +1,15 @@
-.btns {
-  background-color: aquamarine;
-  color: darkgreen;
+.home {
+  background-color: darkgreen;
+  color: rgb(245, 231, 42);
   height: 50px;
-  width: 400px;
+  width: auto;
+}
+.btns {
+  background-color: rgb(194, 238, 194);
+  margin: 10px;
+  width: 95px;
+  cursor: pointer;
+}
+.rbn {
+  margin-left: 220px;
 }

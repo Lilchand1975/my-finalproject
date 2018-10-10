@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Nav from "./Component/Nav/Nav.js";
+import Ribbon from "./Component/Ribbon/Ribbon.js";
 import Carousel from "./Component/Carousel/Carousel.js";
-import ribbon from "./Component/ribbon/Ribbon.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./Component/Footer/Footer";
 import Navigation from "./Component/Navigation/Navigation.js";
@@ -9,6 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+<<<<<<< HEAD
       <Navigation/>
         <Nav name="BHUTANESE COMMUNITY OF GREATER RICHMOND (BCGR)-VA" />
         
@@ -16,6 +18,11 @@ class App extends Component {
 
         </Footer>
 
+=======
+        <Nav />
+        <Ribbon branding="button" />
+        <Carousel />
+>>>>>>> master
       </div>
     );
   }
