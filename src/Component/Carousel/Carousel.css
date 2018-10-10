@@ -1,4 +1,8 @@
-.carousel {
-  height: 250px;
-  width: 350px;
+#carousel {
+  height: 300px;
+  background-color: aqua;
+}
+#card {
+  height: 300px;
+  background-color: lightpink;
 }
