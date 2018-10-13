@@ -1,11 +1,6 @@
-.font-small{
-  position:absolute;
-  left:0;
-  bottom:0;
-  right:0;
+.font-small {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
-/* .Org-history{
-  display: block;
-  width: 80px;
-
-} */
