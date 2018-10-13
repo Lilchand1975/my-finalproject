@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Nav from "./Component/Nav/Nav.js";
 import Ribbon from "./Component/Ribbon/Ribbon.js";
-import Carousel from "./Component/Carousel/Carousel.js";
+import PictureCarousel from "./Component/PictureCarousel/PictureCarousel.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Footer from "./Component/Footer/Footer";
+import Footer from "./Component/Footer";
 import Navigation from "./Component/Navigation/Navigation.js";
 import Card from "./Component/Card/Card";
 class App extends Component {
@@ -15,12 +15,16 @@ class App extends Component {
       <div className="App">
         <Navigation />
         <Nav name="BHUTANESE COMMUNITY OF GREATER RICHMOND (BCGR)-VA" />
+<<<<<<< HEAD
+        <Ribbon />
+        <PictureCarousel />
+=======
         <div className="wrapper">
           <Ribbon branding="button" />
           <Carousel />
         </div>
+>>>>>>> master
         <Footer />
-
       </div>
       </Router>
     );
@@ -28,7 +32,6 @@ class App extends Component {
 }
 
 export default App;
-
 
 // onst Header = ({title}) => (<header>{title}</header>);
 // const Main = ({title}) => (<main>{title}</main>);
@@ -48,9 +51,9 @@ export default App;
 // };
 
 // ReactDOM.render(
-//   <App 
-//     header="I am the header" 
-//     main="I am the main" 
-//     footer="I am the footer" />, 
+//   <App
+//     header="I am the header"
+//     main="I am the main"
+//     footer="I am the footer" />,
 //   document.getElementById('react')
 // );

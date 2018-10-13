@@ -1,17 +1,44 @@
 .home {
   background-color: darkgreen;
   color: rgb(245, 231, 42);
-  height: 50px;
+  height: auto;
   width: auto;
 }
+
 .btns {
   background-color: rgb(194, 238, 194);
+<<<<<<< HEAD
+  margin: 20px;
+=======
   color: orangered;
   margin: 10px;
+>>>>>>> master
   width: 95px;
   cursor: pointer;
 
 }
+
 .rbn {
-  margin-left: 220px;
+  margin-left: 250px;
+}
+
+.btn dropdown-toggle {
+  color: black;
+  background-color: rgb(194, 238, 194);
+  margin: 10px;
+  width: 95px;
+  cursor: pointer;
+}
+
+.fa {
+  background-color: rgb(64, 64, 247);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  margin: 15px 2px;
+  border-radius: 50%;
+  margin-left: 20px;
+  cursor: pointer;
 }
