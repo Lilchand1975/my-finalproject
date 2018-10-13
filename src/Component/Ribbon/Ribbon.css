@@ -6,9 +6,11 @@
 }
 .btns {
   background-color: rgb(194, 238, 194);
+  color: orangered;
   margin: 10px;
   width: 95px;
   cursor: pointer;
+
 }
 .rbn {
   margin-left: 220px;

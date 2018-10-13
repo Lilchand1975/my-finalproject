@@ -6,3 +6,22 @@
   height: 300px;
   background-color: lightpink;
 }
+.service-section{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-decoration: underline;
+ text-decoration-color: rgb(30, 141, 58);
+ margin-left:15px;
+ color: orangered;
+ 
+}
+.service-overview{
+  margin-left:15px;
+  margin-right: 2px;
+  color: blueviolet;
+}
+
+.form{
+display: block;
+border: 2px;
+background-color: aquamarine;
+}

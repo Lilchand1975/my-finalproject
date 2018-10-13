@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Nav from "./Component/Nav/Nav.js";
 import Ribbon from "./Component/Ribbon/Ribbon.js";
 import Carousel from "./Component/Carousel/Carousel.js";
@@ -6,17 +7,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./Component/Footer/Footer";
 import Navigation from "./Component/Navigation/Navigation.js";
+import Card from "./Component/Card/Card";
 class App extends Component {
   render() {
     return (
+      <Router>
       <div className="App">
-      <Navigation/>
+        <Navigation />
         <Nav name="BHUTANESE COMMUNITY OF GREATER RICHMOND (BCGR)-VA" />
-        <Ribbon branding="button" />
-        <Carousel />
+        <div className="wrapper">
+          <Ribbon branding="button" />
+          <Carousel />
+        </div>
         <Footer />
 
       </div>
+      </Router>
     );
   }
 }
