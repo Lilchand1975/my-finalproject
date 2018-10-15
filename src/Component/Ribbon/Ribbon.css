@@ -1,21 +1,21 @@
 .home {
-  background-color: darkgreen;
-  color: rgb(245, 231, 42);
-  height: auto;
+  /* background-color: rgb(69, 108, 190); */
   width: auto;
+  text-align: center;
+
 }
 
 .btns {
   background-color: rgb(194, 238, 194);
-<<<<<<< HEAD
-  margin: 20px;
-=======
   color: orangered;
   margin: 10px;
->>>>>>> master
   width: 95px;
   cursor: pointer;
 
+}
+
+.ribbon {
+  background-color: rgb(69, 108, 190);
 }
 
 .rbn {
@@ -30,15 +30,31 @@
   cursor: pointer;
 }
 
-.fa {
-  background-color: rgb(64, 64, 247);
-  color: white;
-  padding: 20px;
-  font-size: 30px;
+#media-btn {
+  background-color: rgb(244, 244, 250);
+  color: rgb(17, 56, 129);
+  padding: 5px; 
+  font-size: 20px;
   width: 30px;
   text-align: center;
-  margin: 15px 2px;
   border-radius: 50%;
-  margin-left: 20px;
+  margin: 10px;
+  margin-top: 2px;
   cursor: pointer;
+  float: right;
+}
+.registration{
+  color:wheat;
+  float: left;
+  margin-left: 500px;
+  
+}
+.webAddress{
+  float: left;
+  margin-left: 50px;
+  color: wheat;
+}
+
+.clearfix {
+  clear: both;
 }

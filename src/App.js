@@ -8,6 +8,7 @@ import "./App.css";
 import Footer from "./Component/Footer";
 import Navigation from "./Component/Navigation/Navigation.js";
 import Card from "./Component/Card/Card";
+import Form from "./Component/Form/Form";
 class App extends Component {
   render() {
     return (
@@ -15,15 +16,12 @@ class App extends Component {
       <div className="App">
         <Navigation />
         <Nav name="BHUTANESE COMMUNITY OF GREATER RICHMOND (BCGR)-VA" />
-<<<<<<< HEAD
-        <Ribbon />
-        <PictureCarousel />
-=======
         <div className="wrapper">
-          <Ribbon branding="button" />
-          <Carousel />
+        <Ribbon branding="button" />
+        <Route exact path="/registration" component={(props) => <Form {...props} />} />
+        <Route exact path="/" component={(props) => <PictureCarousel {...props} />} />
+          
         </div>
->>>>>>> master
         <Footer />
       </div>
       </Router>

@@ -21,7 +21,7 @@ class Nav extends Component {
             />
           </div>
 
-          <div className="col-sm-9">
+          <div className="col-sm-6">
             <h1
               className="head"
               style={{
@@ -32,8 +32,17 @@ class Nav extends Component {
               BHUTANESE COMMUNITY OF GREATER RICHMOND (BCGR)-VA
             </h1>
             <p>United we stand strong</p>
-          </div>
-        </div>
+          </div> 
+              
+              <div className="topnav" col-sm-3>
+                  <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search.." name="search"/>
+                      <button type="submit" id="search-btn"><i className="fa fa-search" ></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
       </nav>
     );
   }

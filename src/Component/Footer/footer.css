@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-.font-small {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-=======
 .font-small{
   position: relative;
   left:0;
   bottom:0;
   right:0;
   height: 295px;  
-  position: fixed;
   width: 100%;
 }
 
@@ -31,4 +22,3 @@
 #list {
   list-style-type: none;
 }
->>>>>>> master

@@ -51,15 +51,17 @@ class PictureCarousel extends Component {
             interval={this.state.interval}
             className="carousel"
             style={{
-              height: "50 px"
+        
             }}
           >
+          
+
             <div>
               <img
                 src={esl}
                 alt=""
                 style={{
-                  height: "50 px"
+                
                 }}
               />
               <p className="legend"> Legend 1 </p>
@@ -69,21 +71,42 @@ class PictureCarousel extends Component {
                 src={esl2}
                 alt=""
                 style={{
-                  height: "50 px"
+                  position: "relative",
+                  top: 120
                 }}
               />
               <p className="legend"> Legend 2 </p>
             </div>
             <div>
-              <img src={image} alt="" />
+              <img src={image} style={{
+                position: "relative",
+                top: 75
+              }} 
+              alt="" 
+              />
               <p className="legend"> Legend 3 </p>
             </div>
             <div>
-              <img src={lhosar} alt="" />
+              <img
+                style={{
+                  position: "relative",
+                  top: 75
+                }} 
+                src={lhosar} 
+                alt=""
+                
+              />
               <p className="legend"> Legend 4 </p>
             </div>
             <div>
-              <img src={teej} alt="" />
+              <img
+                style={{
+                  position: "relative",
+                  top: 80
+                }} 
+                src={teej}
+                alt="" 
+              />
               <p className="legend"> Legend 5 </p>
             </div>
           </Carousel>

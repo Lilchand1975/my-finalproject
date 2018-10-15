@@ -8,6 +8,7 @@
   height: 320px;
   margin-left: 15px;
   width: 250px;
+  color: black;
 }
 
 .ads {
@@ -18,8 +19,7 @@
 }
 
 .carousel {
-  width: 940px;
-  height: 320px;
+  width: 320px;
   display: block;
   position: static;
   background: no-repeat center center fixed;
