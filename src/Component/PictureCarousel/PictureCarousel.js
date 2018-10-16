@@ -12,43 +12,44 @@ class PictureCarousel extends Component {
   state = {
     slideIndex: 0,
     slide: true,
-    interval: 2
+    interval: 500,
+    infiniteLoop: true,
+   
   };
 
   constructor(props) {
     super(props);
     this.play = this.play.bind(this);
+    this.autoplay = true;
+    this.interval = 200;
   }
 
   play() {
     this.slider.play();
   }
 
+
   render() {
     return (
       <div className="row">
-        <div ClassName="col-sm-4" id="card">
+        <div ClassName="col-sm-3" id="card">
           <h4 className="ads">Advertisement:</h4>
           <ul>
             <br />
             <li> Suva Laxmi store </li>
             <br />
             <li> Apex Care Link </li>
-            <br />
-            <li> Richmond Karate Kids </li>
-            <br />
-            <li> Everest Financial </li>
-            <br />
           </ul>
         </div>
         {/* Caoursel begins here */}
 
-        <div className="col-sm-8">
-          <Carousel
+        <div className="col-sm-6">
+          <Carousel autoPlay infiniteLoop="true"
             slideIndex={this.state.slideIndex}
             afterSlide={slideIndex => this.setState({ slideIndex })}
             slide={this.state.slide}
-            interval={this.state.interval}
+            
+            infiniteLoop={this.state.infiniteLoop}
             className="carousel"
             style={{
         
@@ -61,7 +62,8 @@ class PictureCarousel extends Component {
                 src={esl}
                 alt=""
                 style={{
-                
+                  position: "relative",
+                  top: 20
                 }}
               />
               <p className="legend"> Legend 1 </p>
@@ -72,7 +74,7 @@ class PictureCarousel extends Component {
                 alt=""
                 style={{
                   position: "relative",
-                  top: 120
+                  top: 0
                 }}
               />
               <p className="legend"> Legend 2 </p>
@@ -80,7 +82,7 @@ class PictureCarousel extends Component {
             <div>
               <img src={image} style={{
                 position: "relative",
-                top: 75
+                top: 25
               }} 
               alt="" 
               />
@@ -110,6 +112,16 @@ class PictureCarousel extends Component {
               <p className="legend"> Legend 5 </p>
             </div>
           </Carousel>
+        </div>
+        <div ClassName="col-sm-3" id="card">
+          <h4 className="ads">Advertisement:</h4>
+          <ul>
+            <br />
+            <li> Richmond Karate Kids </li>
+            <br />
+            <li> Everest Financial </li>
+            <br />
+          </ul>
         </div>
       </div>
     );
