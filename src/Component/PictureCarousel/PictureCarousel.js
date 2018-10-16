@@ -50,21 +50,14 @@ class PictureCarousel extends Component {
             slide={this.state.slide}
             interval={this.state.interval}
             className="carousel"
-            style={{
-        
-            }}
+            style={{}}
           >
-          
-
             <div>
-              <img
-                src={esl}
-                alt=""
-                style={{
-                
-                }}
-              />
-              <p className="legend"> Legend 1 </p>
+              <img src={esl} alt="" style={{}} />
+              <p className="legend">
+                {" "}
+                Ms. Durga Katel crowning Miss Bhutan USA,2018{" "}
+              </p>
             </div>
             <div>
               <img
@@ -75,39 +68,43 @@ class PictureCarousel extends Component {
                   top: 120
                 }}
               />
-              <p className="legend"> Legend 2 </p>
+              <p className="legend"> Attending community ESL class</p>
             </div>
             <div>
-              <img src={image} style={{
-                position: "relative",
-                top: 75
-              }} 
-              alt="" 
+              <img
+                src={image}
+                style={{
+                  position: "relative",
+                  top: 75
+                }}
+                alt=""
               />
-              <p className="legend"> Legend 3 </p>
+              <p className="legend"> RUKK in their karate training </p>
             </div>
             <div>
               <img
                 style={{
                   position: "relative",
                   top: 75
-                }} 
-                src={lhosar} 
+                }}
+                src={lhosar}
                 alt=""
-                
               />
-              <p className="legend"> Legend 4 </p>
+              <p className="legend"> Celebrating Lhosar festival </p>
             </div>
             <div>
               <img
                 style={{
                   position: "relative",
                   top: 80
-                }} 
+                }}
                 src={teej}
-                alt="" 
+                alt=""
               />
-              <p className="legend"> Legend 5 </p>
+              <p className="legend">
+                {" "}
+                Bhutanese Women Celebrating Teej festival{" "}
+              </p>
             </div>
           </Carousel>
         </div>
