@@ -1,13 +1,13 @@
 #PictureCarousel {
-  height: 310px;
-  width: 500px;
+  height: 455px;
+  width: 900px;
 }
 
 #card {
   background-color: cornsilk;
-  height: 320px;
+  height: 455px;
   margin-left: 15px;
-  width: 250px;
+  width: 350px;
   color: black;
 }
 
@@ -15,11 +15,10 @@
   color: rgb(88, 88, 3);
   text-decoration: underline;
   font-weight: bold;
-
 }
 
 .carousel {
-  width: 320px;
+  width: 600px;
   display: block;
   position: static;
   background: no-repeat center center fixed;
