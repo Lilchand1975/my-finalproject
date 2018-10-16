@@ -5,7 +5,7 @@
 
 #card {
   background-color: cornsilk;
-  height: 455px;
+  height: 500px;
   margin-left: 15px;
   width: 350px;
   color: black;
@@ -18,7 +18,7 @@
 }
 
 .carousel {
-  width: 600px;
+  width: 750px;
   display: block;
   position: static;
   background: no-repeat center center fixed;

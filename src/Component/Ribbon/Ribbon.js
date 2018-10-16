@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Form from "../Form/Form";
-import home from "../Images/home.jpg";
+// import Form from "../Form/Form";
+// import home from "../Images/home.jpg";
 import "./Ribbon.css";
 
 class Ribbon extends Component {

@@ -12,52 +12,57 @@ class PictureCarousel extends Component {
   state = {
     slideIndex: 0,
     slide: true,
-    interval: 2
+    interval: 500,
+    infiniteLoop: true,
+   
   };
 
   constructor(props) {
     super(props);
     this.play = this.play.bind(this);
+    this.autoplay = true;
+    this.interval = 200;
   }
 
   play() {
     this.slider.play();
   }
 
+
   render() {
     return (
       <div className="row">
-        <div ClassName="col-sm-4" id="card">
+        <div ClassName="col-sm-3" id="card">
           <h4 className="ads">Advertisement:</h4>
           <ul>
             <br />
             <li> Suva Laxmi store </li>
             <br />
             <li> Apex Care Link </li>
-            <br />
-            <li> Richmond Karate Kids </li>
-            <br />
-            <li> Everest Financial </li>
-            <br />
           </ul>
         </div>
         {/* Caoursel begins here */}
 
-        <div className="col-sm-8">
-          <Carousel
+        <div className="col-sm-6">
+          <Carousel autoPlay infiniteLoop="true"
             slideIndex={this.state.slideIndex}
             afterSlide={slideIndex => this.setState({ slideIndex })}
             slide={this.state.slide}
-            interval={this.state.interval}
+            
+            infiniteLoop={this.state.infiniteLoop}
             className="carousel"
             style={{}}
           >
             <div>
-              <img src={esl} alt="" style={{}} />
-              <p className="legend">
-                {" "}
-                Ms. Durga Katel crowning Miss Bhutan USA,2018{" "}
-              </p>
+              <img
+                src={esl}
+                alt=""
+                style={{
+                  position: "relative",
+                  top: 20
+                }}
+              />
+              <p className="legend"> Legend 1 </p>
             </div>
             <div>
               <img
@@ -65,19 +70,17 @@ class PictureCarousel extends Component {
                 alt=""
                 style={{
                   position: "relative",
-                  top: 120
+                  top: 0
                 }}
               />
               <p className="legend"> Attending community ESL class</p>
             </div>
             <div>
-              <img
-                src={image}
-                style={{
-                  position: "relative",
-                  top: 75
-                }}
-                alt=""
+              <img src={image} style={{
+                position: "relative",
+                top: 25
+              }} 
+              alt="" 
               />
               <p className="legend"> RUKK in their karate training </p>
             </div>
@@ -107,6 +110,16 @@ class PictureCarousel extends Component {
               </p>
             </div>
           </Carousel>
+        </div>
+        <div ClassName="col-sm-3" id="card">
+          <h4 className="ads">Advertisement:</h4>
+          <ul>
+            <br />
+            <li> Richmond Karate Kids </li>
+            <br />
+            <li> Everest Financial </li>
+            <br />
+          </ul>
         </div>
       </div>
     );

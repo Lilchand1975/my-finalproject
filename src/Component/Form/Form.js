@@ -7,7 +7,7 @@ class Form extends Component {
           <div className="container">
               <form>
                 <div class="form-group">
-                 <label for="firstname1">first name</label>
+                 <label for="firstname">First name</label>
                  <input type="text" class="form-control" id="firstnameinput1" aria-describedby="emailHelp" placeholder="Enter name"/>
                  </div>
 
