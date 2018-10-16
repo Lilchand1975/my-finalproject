@@ -51,12 +51,8 @@ class PictureCarousel extends Component {
             
             infiniteLoop={this.state.infiniteLoop}
             className="carousel"
-            style={{
-        
-            }}
+            style={{}}
           >
-          
-
             <div>
               <img
                 src={esl}
@@ -77,7 +73,7 @@ class PictureCarousel extends Component {
                   top: 0
                 }}
               />
-              <p className="legend"> Legend 2 </p>
+              <p className="legend"> Attending community ESL class</p>
             </div>
             <div>
               <img src={image} style={{
@@ -86,30 +82,32 @@ class PictureCarousel extends Component {
               }} 
               alt="" 
               />
-              <p className="legend"> Legend 3 </p>
+              <p className="legend"> RUKK in their karate training </p>
             </div>
             <div>
               <img
                 style={{
                   position: "relative",
                   top: 75
-                }} 
-                src={lhosar} 
+                }}
+                src={lhosar}
                 alt=""
-                
               />
-              <p className="legend"> Legend 4 </p>
+              <p className="legend"> Celebrating Lhosar festival </p>
             </div>
             <div>
               <img
                 style={{
                   position: "relative",
                   top: 80
-                }} 
+                }}
                 src={teej}
-                alt="" 
+                alt=""
               />
-              <p className="legend"> Legend 5 </p>
+              <p className="legend">
+                {" "}
+                Bhutanese Women Celebrating Teej festival{" "}
+              </p>
             </div>
           </Carousel>
         </div>
