@@ -4,15 +4,14 @@ const db = require("../models");
 // This file empties the Books collection and inserts the books below
 
 mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://localhost/reactreadinglist"
+  process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist"
 );
 
 const bookSeed = [
   {
     title: "Mr.",
     firstName: "Chandra",
-    lastName:"Chhetri"
+    lastName: "Chhetri",
     synopsis:
       "community leader. Currently working as a School Liaison in Commonwealth Catholic Charities.",
     date: new Date(Date.now())
@@ -27,9 +26,7 @@ const bookSeed = [
   }
 ];
 
-
-db.Member
-  .remove({})
+db.Member.remove({})
   .then(() => db.Member.collection.insertMany(memberSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
@@ -39,5 +36,3 @@ db.Member
     console.error(err);
     process.exit(1);
   });
-
-  

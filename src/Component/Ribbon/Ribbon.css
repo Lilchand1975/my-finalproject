@@ -2,20 +2,18 @@
   /* background-color: rgb(69, 108, 190); */
   width: auto;
   text-align: center;
-
 }
 
 .btns {
-  background-color: rgb(194, 238, 194);
+  background-color: rgb(12, 61, 12);
   color: orangered;
   margin: 10px;
   width: 95px;
   cursor: pointer;
-
 }
 
 .ribbon {
-  background-color: rgb(69, 108, 190);
+  background-color: rgb(27, 94, 57);
 }
 
 .rbn {
@@ -33,7 +31,7 @@
 #media-btn {
   background-color: rgb(244, 244, 250);
   color: rgb(17, 56, 129);
-  padding: 5px; 
+  padding: 5px;
   font-size: 20px;
   width: 30px;
   text-align: center;
@@ -43,13 +41,12 @@
   cursor: pointer;
   float: right;
 }
-.registration{
-  color:wheat;
+.registration {
+  color: rgb(245, 179, 240);
   float: left;
-  margin-left: 500px;
-  
+  margin-left: 380px;
 }
-.webAddress{
+.webAddress {
   float: left;
   margin-left: 50px;
   color: wheat;
