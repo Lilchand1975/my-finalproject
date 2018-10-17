@@ -22,7 +22,7 @@ class App extends Component {
         <Route exact path="/registration" component={(props) => <Form {...props} />} />
         <Route exact path="/" component={(props) => <PictureCarousel {...props} />} />
         <Route exact path="/history" component={(props) => <PictureCarousel {...props} />} />
-
+        
         </div>
         <Footer />
       </div>
@@ -33,27 +33,4 @@ class App extends Component {
 
 export default App;
 
-// onst Header = ({title}) => (<header>{title}</header>);
-// const Main = ({title}) => (<main>{title}</main>);
-// const Footer = ({title}) => (<footer>{title}</footer>);
 
-// class App extends React.Component {
-//   render() {
-//     const {header,main,footer} = this.props;
-//     return (
-//       <div className="app">
-//         <Header title={header} />
-//         <Main title={main} />
-//         <Footer title={footer}/>
-//       </div>
-//     );
-//   }
-// };
-
-// ReactDOM.render(
-//   <App
-//     header="I am the header"
-//     main="I am the main"
-//     footer="I am the footer" />,
-//   document.getElementById('react')
-// );

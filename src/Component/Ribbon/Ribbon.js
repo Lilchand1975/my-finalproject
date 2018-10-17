@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { FacebookProvider, Group } from 'react-facebook';
 // import Form from "../Form/Form";
 // import home from "../Images/home.jpg";
 import "./Ribbon.css";
@@ -19,15 +20,17 @@ class Ribbon extends Component {
               <Link to="/registration">Login/Register</Link>
             </div>
             <div className="rbn">
-              <button type="button" id="media-btn" className="fa fa-facebook">
-                <a href="https://facebook.com/login"> </a>
-              </button>
+            <a href="https://www.facebook.com/mybcgr/">
+              <button type="button" id="media-btn" className="fa fa-facebook">   
+              </button></a>
               <button type="button" id="media-btn" className="fa fa-twitter">
                 <a href="https://twitter.com/"> </a>
               </button>
-              <button type="button" id="media-btn" className="fa fa-youtube">
-                <a href="https://youtube.com/"> </a>
+              <a href ="https://youtu.be/J_yWW_QMX4M" > 
+              <button type="button" id="media-btn" 
+              className="fa fa-youtube">
               </button>
+              </a>
             </div>
           </div>
           <div className="clearfix" />
