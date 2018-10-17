@@ -1,31 +1,23 @@
-
-
-.navContainTab{
-    background-color: rgb(172, 166, 145);
-    height:30px;   
-    margin-bottom:0px;
-    color: white;
-   
+.navContainTab {
+  background-color: rgb(172, 166, 145);
+  height: 30px;
+  margin-bottom: 0px;
+  color: white;
 }
 
 ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 18px;
-    display: inline;
-    /* color: white; */
-    
+  list-style-type: georgian;
+  margin: 0;
+  padding: 0;
+  margin-right: 18px;
+  display: inline;
+  /* color: white; */
 }
-.search{
-    Float: right;
-    margin-right: 10px;
-    margin-top: 2px;
-
+.search {
+  float: right;
+  margin-right: 10px;
+  margin-top: 2px;
 }
-#home-tab{
-    
-    margin-left:220px;
-   
-
+#home-tab {
+  margin-left: 220px;
 }
